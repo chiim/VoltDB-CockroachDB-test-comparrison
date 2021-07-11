@@ -1,0 +1,115 @@
+CREATE TABLE usertable(type_of_premises VARCHAR(23) NOT NULL);
+
+CREATE PROCEDURE Insert
+   AS INSERT INTO usertable (type_of_premises) VALUES (?);
+
+CREATE PROCEDURE Select
+   AS SELECT type_of_premises FROM usertable WHERE type_of_premises = ?;
+
+CREATE PROCEDURE Delete
+   AS DELETE FROM usertable WHERE type_of_premises = ?;
+   
+CREATE PROCEDURE Update
+   AS UPDATE usertable SET type_of_premises = ? WHERE type_of_premises = ?;
+
+
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');
+INSERT INTO usertable(type_of_premises) VALUES('lokaler 1');
+INSERT INTO usertable(type_of_premises) VALUES('Varav Kontorslokaler 2)');
+INSERT INTO usertable(type_of_premises) VALUES('Residens');

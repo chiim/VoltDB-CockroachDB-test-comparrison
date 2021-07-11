@@ -1,0 +1,83 @@
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 10.1.1 voltdb-10.1.1-0-gf24e902-local Community Edition
+Loaded node-specific settings from /home/srvadmin/voltdb_instances/node2/voltdbroot/config/path.properties
+Connecting to the VoltDB cluster leader localhost/127.0.0.1:3021
+WARN: Cannot connect to localhost/127.0.0.1:3021, retrying. java.net.ConnectException: Connection refused
+Connecting to the VoltDB cluster leader localhost/127.0.0.1:3021
+Host id of this node is: 1
+Starting a new database cluster
+WARN: User authentication is not enabled. The database is accessible and could be modified or shut down by anyone on the network.
+Initializing the database. This may take a moment...
+WARN: This is not a highly available cluster. K-Safety is set to 0.
+WARN: Durability is turned off. Command logging is off.
+Server Operational State is: NORMAL
+Server completed initialization.
+WARN: EndOfStreamException: Unable to read additional data from client sessionid 0x30d6ce0ed5800001, likely client has closed socket
+**************************************************************************
+* The VoltDB server will shut down due to a control-C or other JVM exit. *
+**************************************************************************
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 10.1.1 voltdb-10.1.1-0-gf24e902-local Community Edition
+Loaded node-specific settings from /home/srvadmin/voltdb_instances/node2/voltdbroot/config/path.properties
+Connecting to the VoltDB cluster leader localhost/127.0.0.1:3021
+WARN: Cannot connect to localhost/127.0.0.1:3021, retrying. java.net.ConnectException: Connection refused
+Connecting to the VoltDB cluster leader localhost/127.0.0.1:3021
+Host id of this node is: 1
+Starting a new database cluster
+WARN: User authentication is not enabled. The database is accessible and could be modified or shut down by anyone on the network.
+Initializing the database. This may take a moment...
+WARN: This is not a highly available cluster. K-Safety is set to 0.
+WARN: Durability is turned off. Command logging is off.
+Server Operational State is: NORMAL
+Server completed initialization.
+**************************************************************************
+* The VoltDB server will shut down due to a control-C or other JVM exit. *
+**************************************************************************
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 10.1.1 voltdb-10.1.1-0-gf24e902-local Community Edition
+Loaded node-specific settings from /home/srvadmin/voltdb_instances/node2/voltdbroot/config/path.properties
+Host id of this node is: 1
+Starting a new database cluster
+WARN: User authentication is not enabled. The database is accessible and could be modified or shut down by anyone on the network.
+Initializing the database. This may take a moment...
+WARN: This is not a highly available cluster. K-Safety is set to 0.
+WARN: Durability is turned off. Command logging is off.
+Server Operational State is: NORMAL
+Server completed initialization.
+WARN: EndOfStreamException: Unable to read additional data from client sessionid 0x30d8cb0c05800001, likely client has closed socket
+**************************************************************************
+* The VoltDB server will shut down due to a control-C or other JVM exit. *
+**************************************************************************
+ERROR: The kernel is configured to use transparent huge pages (THP). This is not supported when running VoltDB. Use the following commands to disable this feature for the current session:
+ERROR: 
+ERROR: sudo bash -c "echo never > /sys/kernel/mm/transparent_hugepage/enabled"
+ERROR: sudo bash -c "echo never > /sys/kernel/mm/transparent_hugepage/defrag"
+ERROR: 
+ERROR: To disable THP on reboot, add the preceding commands to the /etc/rc.local file.
